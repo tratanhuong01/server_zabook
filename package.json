@@ -1,0 +1,16 @@
+{
+  "name": "server_e_commerce",
+  "version": "1.0.0",
+  "description": "server",
+  "scripts": {
+    "test": "node test.js",
+    "start": "node index.js"
+  },
+  "main": "index.js",
+  "author": "huongdev",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^4.2.0"
+  }
+}
