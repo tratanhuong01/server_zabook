@@ -23,6 +23,6 @@ socketIo.on("connection", (socket) => {
   });
 });
 
-server.listen(4444, () => {
+server.listen(process.env.PORT || 4444, () => {
   console.log("Server running port 4444");
 });
